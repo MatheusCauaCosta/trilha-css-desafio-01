@@ -1,3 +1,54 @@
 @import url(./global.css);
 
-
+body{
+    background-color: black;
+}
+.banner{
+    height: 605px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(49,168,211, 0.2),rgba(0, 0, 0,0.6)),url(../images/banner.png);
+    background-size: cover;
+    border-bottom: 1px solid hsla(198, 70%, 53%, 1);
+    background-repeat: no-repeat;
+}
+.banner-content {
+    color: white;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-weight: 900px;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-family: Raleway;
+    line-height: 47px;
+    letter-spacing: 0em;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    margin: 20px;
+}
+.banner p{
+    
+    font-size: 20px;
+    margin: 16px 0 24px;
+    
+}
+button{
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    border: solid 1px #33A8DB;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
